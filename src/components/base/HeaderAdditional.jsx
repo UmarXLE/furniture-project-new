@@ -88,4 +88,8 @@ const Container = styled("header")`
             display:block;
         }
     }
+
+    @media screen and (max-width:576px) {
+        width: 90%;
+    }
 `

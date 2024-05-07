@@ -20,6 +20,13 @@ body , p , h2 , h3 , h1 , span {
 }
 
 
+@media screen and (max-width: 576px) {
+  .main-wrapper {
+    width: 90%;
+  }
+}
+
+
 .layout-additional {
   
 }
