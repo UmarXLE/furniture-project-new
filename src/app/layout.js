@@ -1,6 +1,7 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import "@/variables/colors.css";
+import AosInitial from "@/utils/AosInitial";
 
 const inter = Montserrat({ subsets: ["latin"] });
 
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ru">
       <body className={inter.className}>
+        <AosInitial/>
         <main className="main-wrapper">
             {children}
         </main>

@@ -7,7 +7,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <Container>
+        <Container data-aos="fade-down" data-aos-duration="1000" data-aos-once="false">
             <div className='logo'>
                 <Image
                     src="/assets/icons/logo.png"

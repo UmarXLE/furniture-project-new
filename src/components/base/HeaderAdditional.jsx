@@ -9,7 +9,7 @@ import MenuDrawer from '../navigation/MenuDrawer';
 
 const HeaderAdditional = () => {
     return (
-        <Container>
+        <Container data-aos="fade-down" data-aos-duration="1000" data-aos-once="false">
             <div className='logo'>
                 <Image
                     src="/assets/icons/logo.png"

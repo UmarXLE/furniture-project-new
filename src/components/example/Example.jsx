@@ -6,7 +6,7 @@ import React from 'react';
 const Example = ({ data }) => {
     return (
         <Container id="example">
-            <h1 className='title'><span>П</span>римеры</h1>
+            <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-once="true" className='title'><span>П</span>римеры</h1>
             <div className='container-models'>
                 {
                     data?.map((item, index) => (

@@ -6,7 +6,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <Container>
+        <Container >
             <div className='footer-item'>
                 <span>
                     TOO "Kapitik Art Studio"

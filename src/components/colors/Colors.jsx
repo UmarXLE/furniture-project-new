@@ -6,7 +6,7 @@ import React from 'react';
 const Colors = ({ data }) => {
     return (
         <Container id="color">
-            <h1 className='title'><span>Ц</span>вета</h1>
+            <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-once="true" className='title'><span>Ц</span>вета</h1>
             <div className='container-models'>
                 {
                     data?.map((item, index) => (

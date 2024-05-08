@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const NavigationCard = ({item}) => {
     return (
-        <NavigationCardStyled href={`/${item?.link}`}>
+        <NavigationCardStyled href={`/${item?.link}`} data-aos={item?.link === "bamboo" ?  "fade-right" : "fade-left"} data-aos-duration="1000" data-aos-once="false">
             <Image
                 src={item?.img}
                 width={300}
