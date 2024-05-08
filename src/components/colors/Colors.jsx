@@ -36,5 +36,27 @@ const Container = styled("section")`
         grid-auto-rows: auto;
         gap:20px;
     }
+
+
+    @media screen and (max-width:1200px) {
+        .title  {
+            font-size: 26px;
+            font-weight: 400;
+        }
+    }
+
+    @media screen and (max-width:767px) {
+        .title  {
+            font-size: 24px;
+            font-weight: 400;
+        }
+    }
+
+    @media screen and (max-width:576px) {
+        .title  {
+            font-size: 23px;
+            font-weight: 400;
+        }
+    }
 `
 

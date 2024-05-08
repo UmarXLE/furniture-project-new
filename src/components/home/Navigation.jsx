@@ -9,7 +9,7 @@ const Navigation = () => {
         <Container>
             {
                 navigationHomeData?.map(item => (
-                    <NavigationCard key={item?.id} item={item}/>
+                    <NavigationCard key={item?.key} item={item} />
                 ))
             }
         </Container>
@@ -20,7 +20,14 @@ export default Navigation;
 
 const Container = styled("section")`
     display:flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
+
+
+    @media screen and (max-width:767px) {
+        flex-direction: column;
+        padding: 50px 0;
+    }
 `

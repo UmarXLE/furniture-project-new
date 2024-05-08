@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
+import { scrollTo } from '@/utils/scroll';
 
 const MenuContent = ({close}) => {
     return (
@@ -17,9 +18,18 @@ const MenuContent = ({close}) => {
             </div>
             <nav className='navigation'>
                 <Link href="/">На главную</Link>
-                <span onClick={() => scrollTo('model')}>Модели</span>
-                <span onClick={() => scrollTo('color')}>Цвета</span>
-                <span onClick={() => scrollTo('example')}>Примеры</span>
+                <span onClick={() => {
+                    scrollTo('model')
+                    close()
+                }}>Модели</span>
+                <span onClick={() => {
+                    scrollTo('color')
+                    close()
+                }}>Цвета</span>
+                <span onClick={() => {
+                    scrollTo('example')
+                    close()
+                }}>Примеры</span>
             </nav>
 
             <div className='wrapper-close' onClick={close}>
@@ -42,10 +52,12 @@ const Container = styled("div")`
     padding: 30px 20px;
     position: relative;
     width:200px;
+    text-align: center;
+
     .navigation {
         display:flex;
         flex-direction: column;
-        gap:30px;
+        gap:45px;
         margin-top: 30px;
 
         & span , & a {

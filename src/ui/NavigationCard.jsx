@@ -27,6 +27,8 @@ const NavigationCardStyled = styled(Link)`
     text-decoration: none;
     color:var(--black);
     transition: 0.25s ease all;
+    max-width: 400px;
+    width: 100%;
     
     & h1 {
         font-size: 32px;
@@ -38,6 +40,27 @@ const NavigationCardStyled = styled(Link)`
         & img {
             transition: 0.25s ease all;
             transform:scale(1.1)
+        }
+    }
+
+    @media screen and (max-width:1200px) {
+        & h1 {
+            font-size: 30px;
+            font-weight: 400;
+        }
+    }
+
+    @media screen and (max-width:767px) {
+        & h1 {
+            font-size: 25px;
+            font-weight: 400;
+        }
+    }
+
+    @media screen and (max-width:576px) {
+        & h1 {
+            font-size: 25px;
+            font-weight: 400;
         }
     }
 `

@@ -43,14 +43,14 @@ const TextContainer = styled("div")`
 
     @media screen and (max-width:767px) {
         & h1 {
-            font-size: 25px;
+            font-size: 26px;
             font-weight: 400;
         }
     }
 
     @media screen and (max-width:576px) {
         & h1 {
-            font-size: 25px;
+            /* font-size: 25x; */
             font-weight: 400;
         }
     }
