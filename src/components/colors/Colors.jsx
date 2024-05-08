@@ -6,7 +6,7 @@ import React from 'react';
 const Colors = ({ data }) => {
     return (
         <Container id="color">
-            <h1 className='title'>Цвета</h1>
+            <h1 className='title'><span>Ц</span>вета</h1>
             <div className='container-models'>
                 {
                     data?.map((item, index) => (
@@ -28,6 +28,13 @@ const Container = styled("section")`
         margin-bottom: 30px;
         font-size: 28px;
         font-weight:400;
+    }
+
+    & span {
+        background: var(--green);
+        color:var(--white);
+        border-radius: 10px;
+        padding: 3px;
     }
 
     .container-models {

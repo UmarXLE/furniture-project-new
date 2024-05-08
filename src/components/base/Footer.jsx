@@ -53,14 +53,14 @@ const Footer = () => {
                 </Link>
             </div>
             <div className='footer-item'>
-                <Link href="mailto:weasellux@gmail.com">
+                <Link target='_blank' href="https://www.instagram.com/kapitik_art.kz?igsh=cGJsMmo5aXZvcGtk">
                 <Image
                         src={"/assets/icons/instagram.png"}
                         width={15}
                         height={15}
                         alt="phone icon"
                     />
-                    <p> weasellux@gmail.com</p>
+                    <p>kapitik_art.kz</p>
                 </Link>
             </div>
         </Container>

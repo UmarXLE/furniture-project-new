@@ -4,33 +4,39 @@ import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import { scrollTo } from '@/utils/scroll';
+import Button from '@/ui/Button';
 
-const MenuContent = ({close}) => {
+const MenuContent = ({ close }) => {
     return (
         <Container>
-            <div className='wrapper-logo'>
-                <Image
-                    src={"/assets/icons/logo.png"}
-                    width={100}
-                    height={100}
-                    alt="logo icon"
-                />
+            <div className='wrapper-up'>
+                <div className='wrapper-logo'>
+                    <Image
+                        src={"/assets/icons/logo.png"}
+                        width={100}
+                        height={100}
+                        alt="logo icon"
+                    />
+                </div>
+                <nav className='navigation'>
+                    <Link href="/">На главную</Link>
+                    <span onClick={() => {
+                        scrollTo('model')
+                        close()
+                    }}>Модели</span>
+                    <span onClick={() => {
+                        scrollTo('color')
+                        close()
+                    }}>Цвета</span>
+                    <span onClick={() => {
+                        scrollTo('example')
+                        close()
+                    }}>Примеры</span>
+                </nav>
             </div>
-            <nav className='navigation'>
-                <Link href="/">На главную</Link>
-                <span onClick={() => {
-                    scrollTo('model')
-                    close()
-                }}>Модели</span>
-                <span onClick={() => {
-                    scrollTo('color')
-                    close()
-                }}>Цвета</span>
-                <span onClick={() => {
-                    scrollTo('example')
-                    close()
-                }}>Примеры</span>
-            </nav>
+            <div className='wrapper-down'>
+                <Button>Скачать каталог</Button>
+            </div>
 
             <div className='wrapper-close' onClick={close}>
                 <Image
@@ -51,9 +57,12 @@ const Container = styled("div")`
     height: 100vh;
     padding: 30px 20px;
     position: relative;
-    width:200px;
+    width:220px;
     text-align: center;
-
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
     .navigation {
         display:flex;
         flex-direction: column;

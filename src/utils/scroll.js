@@ -14,7 +14,7 @@ export const scrollTo = (id) => {
     const element = document.querySelector(`#${id}`);
     window.scrollTo({
         behavior: 'smooth',
-        top: element.offsetTop - 70,
+        top: element.offsetTop - 50,
     })
 }
 

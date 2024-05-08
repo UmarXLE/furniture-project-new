@@ -1,5 +1,6 @@
 "use client"
 import Button from '@/ui/Button';
+import { handleDownloadCatalog } from '@/utils/download';
 import styled from '@emotion/styled';
 import Image from 'next/image';
 import React from 'react';
@@ -16,7 +17,7 @@ const Header = () => {
                 />
             </div>
             <div className='download-button'>
-                <Button>Скачать каталог</Button>
+                <Button onClick={() => handleDownloadCatalog("/assets/files/catalog-1.pdf", 'catalog.pdf')}>Скачать каталог</Button>
             </div>
         </Container>
     );
