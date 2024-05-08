@@ -56,4 +56,18 @@ const LightBoxStyled = styled("div")`
     .title-product {
         padding: 20px 15px;
     }
+
+    .wrapper-images {
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+    }
+
+    .wrapper-images img {
+        transition: transform 0.3s ease;
+    }
+
+    .wrapper-images img:hover {
+        transform: scale(1.1);
+    }
 `

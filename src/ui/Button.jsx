@@ -23,10 +23,21 @@ const ButtonStyled = styled("button")`
     cursor: pointer;
     transition: 0.25s ease all;
 
+    & a {
+        text-decoration: none;
+        color:var(--white);
+        font-weight: 500;
+        font-size: 16px;
+    }
+
     &:hover {
         transition: 0.25s ease all;
         background: #d1cece;
         border: 2px solid #d1cece;
         color:var(--green);
+
+        & a {
+            color:var(--green)
+        }
     }
 `

@@ -11,24 +11,28 @@ const HeaderAdditional = () => {
     return (
         <Container data-aos="fade-down" data-aos-duration="1000" data-aos-once="false">
             <div className='logo'>
-                <Image
-                    src="/assets/icons/logo.png"
-                    width={100}
-                    height={100}
-                    alt="logo icon"
-                />
+                <Link href="/">
+                    <Image
+                        src="/assets/icons/logo.png"
+                        width={100}
+                        height={100}
+                        alt="logo icon"
+                    />
+                </Link>
             </div>
             <nav className='navigation'>
-                <Link href="/">На главную</Link>
                 <span onClick={() => scrollTo('model')}>Модели</span>
                 <span onClick={() => scrollTo('color')}>Цвета</span>
                 <span onClick={() => scrollTo('example')}>Примеры</span>
+                <span onClick={() => scrollTo('footer')}>Контакты</span>
             </nav>
             <div className='download-button'>
-                <Button>Скачать каталог</Button>
+                <Button>
+                    <a href="/assets/files/catalog-1.pdf" download>Скачать каталог</a>
+                </Button>
             </div>
             <div className='menu'>
-                <MenuDrawer/>
+                <MenuDrawer />
             </div>
         </Container>
     );

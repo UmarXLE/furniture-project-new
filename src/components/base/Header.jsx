@@ -17,7 +17,9 @@ const Header = () => {
                 />
             </div>
             <div className='download-button'>
-                <Button onClick={() => handleDownloadCatalog("/assets/files/catalog-1.pdf", 'catalog.pdf')}>Скачать каталог</Button>
+                <Button>
+                    <a href="/assets/files/catalog-1.pdf" download>Скачать каталог</a>
+                </Button>
             </div>
         </Container>
     );

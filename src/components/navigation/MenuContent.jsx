@@ -11,15 +11,16 @@ const MenuContent = ({ close }) => {
         <Container>
             <div className='wrapper-up'>
                 <div className='wrapper-logo'>
-                    <Image
-                        src={"/assets/icons/logo.png"}
-                        width={100}
-                        height={100}
-                        alt="logo icon"
-                    />
+                    <Link href="/">
+                        <Image
+                            src={"/assets/icons/logo.png"}
+                            width={100}
+                            height={100}
+                            alt="logo icon"
+                        />
+                    </Link>
                 </div>
                 <nav className='navigation'>
-                    <Link href="/">На главную</Link>
                     <span onClick={() => {
                         scrollTo('model')
                         close()
@@ -32,6 +33,10 @@ const MenuContent = ({ close }) => {
                         scrollTo('example')
                         close()
                     }}>Примеры</span>
+                    <span onClick={() => {
+                        scrollTo('footer')
+                        close()
+                    }}>Контакты</span>
                 </nav>
             </div>
             <div className='wrapper-down'>
