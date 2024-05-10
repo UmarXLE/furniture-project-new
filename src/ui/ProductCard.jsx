@@ -30,7 +30,9 @@ export default function ProductCard({ data , setOpen}) {
                     className="mainImage"
                 />
             </div>
-            <div className="title-product">{data?.title}</div>
+            {
+                data?.title && <div className="title-product">{data?.title}</div>
+            }
             <Lightbox
                 open={open}
                 plugins={[Download]}
@@ -47,11 +49,11 @@ const LightBoxStyled = styled("div")`
     border-radius: 10px;
     cursor: pointer;
 
-    .mainImage {
+    /* .mainImage {
         cursor: pointer;
         border-bottom: 1px solid var(--border);
         border-radius: 0 0 10px 10px;
-    }
+    } */
 
     .title-product {
         padding: 20px 15px;
@@ -64,7 +66,12 @@ const LightBoxStyled = styled("div")`
     }
 
     .wrapper-images img {
+        cursor: pointer;
+        border-radius: 0 0 10px 10px;
         transition: transform 0.3s ease;
+        /* height: 300px !important; */
+        width:100%;
+        object-fit: contain;
     }
 
     .wrapper-images img:hover {

@@ -5,15 +5,15 @@ import Models from '@/components/models/Models';
 import Title from '@/ui/Title';
 import styled from '@emotion/styled';
 import React from 'react';
-import {bambooModelsData , bambooExampleData ,bambooColorData} from "@/localData/bamboo"
+import { colorsAcousticData , exampleAcousticData , modelsAcousticData} from "@/localData/acoustic"
 
 const BambooPage = () => {
     return (
         <Container>
             <Title title="Акустические панели" />
-            <Models data={bambooModelsData}  />
-            <Colors data={bambooColorData} />
-            <Example data={bambooExampleData}/>
+            <Models data={modelsAcousticData}  />
+            <Colors data={colorsAcousticData} />
+            <Example data={exampleAcousticData}/>
         </Container>
     );
 };

@@ -90,8 +90,8 @@ const Container = styled("div")`
 
     .wrapper-close {
         position: absolute;
-        top:10px;
-        right:10px;
+        top:15px;
+        right:15px;
         cursor: pointer;
         z-index: 100;
     }
