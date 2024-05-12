@@ -3,14 +3,13 @@ export const navigationHomeData = [
     {
         id: 1,
         title: "Бамбуковые панели ",
-        img: "/assets/images/home/catalog-2.png",
+        img: "/assets/images/bamboo/example/example-28.webp",
         link:"bamboo"
     },
     {
         id: 2,
         title: "Акустические панели ",
-        img: "/assets/images/home/catalog-4.png",
+        img: "/assets/images/acoustic/example/example-9.webp",
         link:"acoustic"
     },
-
 ]

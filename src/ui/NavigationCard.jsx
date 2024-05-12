@@ -46,6 +46,8 @@ const NavigationCardStyled = styled(Link)`
 
     & img {
         transition: transform 0.3s ease;
+        height: 300px !important;
+        object-fit: cover;
     }
 
     & img:hover {

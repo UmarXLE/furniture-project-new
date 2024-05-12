@@ -40,7 +40,9 @@ const MenuContent = ({ close }) => {
                 </nav>
             </div>
             <div className='wrapper-down'>
-                <Button>Скачать каталог</Button>
+                <Button>
+                    <a href="/assets/files/catalog.pdf" download>Скачать каталог</a>
+                </Button>
             </div>
 
             <div className='wrapper-close' onClick={close}>

@@ -56,7 +56,7 @@ const LightBoxStyled = styled("div")`
     } */
 
     .title-product {
-        padding: 20px 15px;
+        padding: 15px 10px;
     }
 
     .wrapper-images {
