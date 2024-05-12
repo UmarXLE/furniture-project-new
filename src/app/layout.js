@@ -15,7 +15,6 @@ export const metadata = {
   ogDescription: "Купите стеновые ECO панели от Kapitik Art Studio в Алматы, Астане и Бишкеке. Широкий ассортимент высококачественных панелей для вашего дома или офиса.",
   ogType: "website",
   ogUrl: "https://www.yourwebsite.com",
-  // ogImage: "https://www.yourwebsite.com/images/eco-panels.jpg",
   twitterTitle: "Стеновые ECO панели | Алматы, Астана, Бишкек - Kapitik Art Studio",
   twitterDescription: "Купите стеновые ECO панели от Kapitik Art Studio в Алматы, Астане и Бишкеке. Широкий ассортимент высококачественных панелей для вашего дома или офиса.",
   twitterCard: "summary_large_image",
