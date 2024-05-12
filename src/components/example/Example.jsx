@@ -3,6 +3,7 @@ import ProductCard from '@/ui/ProductCard';
 import styled from '@emotion/styled';
 import React from 'react';
 
+
 const Example = ({ data }) => {
     return (
         <Container id="example">
@@ -39,7 +40,7 @@ const Container = styled("section")`
 
     .container-models {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         grid-auto-rows: auto;
         gap:20px;
     }

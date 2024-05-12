@@ -2,631 +2,974 @@
 export const bambooModelsData = [
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-1.png",
+        img: "/assets/images/bamboo/model/model-1.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-1.png"
+                src:"/assets/images/bamboo/model/model-1.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-2.png",
+        img: "/assets/images/bamboo/model/model-2.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-2.png"
+                src:"/assets/images/bamboo/model/model-2.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-3.png",
+        img: "/assets/images/bamboo/model/model-3.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-3.png"
+                src:"/assets/images/bamboo/model/model-3.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-4.png",
+        img: "/assets/images/bamboo/model/model-4.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-4.png"
+                src:"/assets/images/bamboo/model/model-4.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-5.png",
+        img: "/assets/images/bamboo/model/model-5.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-5.png"
+                src:"/assets/images/bamboo/model/model-5.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-6.png",
+        img: "/assets/images/bamboo/model/model-6.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-6.png"
+                src:"/assets/images/bamboo/model/model-6.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-7.png",
+        img: "/assets/images/bamboo/model/model-7.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-7.png"
+                src:"/assets/images/bamboo/model/model-7.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-8.png",
+        img: "/assets/images/bamboo/model/model-8.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-8.png"
+                src:"/assets/images/bamboo/model/model-8.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-9.png",
+        img: "/assets/images/bamboo/model/model-9.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-9.png"
+                src:"/assets/images/bamboo/model/model-9.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-10.png",
+        img: "/assets/images/bamboo/model/model-10.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-10.png"
+                src:"/assets/images/bamboo/model/model-10.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-11.png",
+        img: "/assets/images/bamboo/model/model-11.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-11.png"
+                src:"/assets/images/bamboo/model/model-11.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-12.png",
+        img: "/assets/images/bamboo/model/model-12.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-12.png"
+                src:"/assets/images/bamboo/model/model-12.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-13.png",
+        img: "/assets/images/bamboo/model/model-13.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-13.png"
+                src:"/assets/images/bamboo/model/model-13.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-14.png",
+        img: "/assets/images/bamboo/model/model-14.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-14.png"
+                src:"/assets/images/bamboo/model/model-14.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-15.png",
+        img: "/assets/images/bamboo/model/model-15.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-15.png"
+                src:"/assets/images/bamboo/model/model-15.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-16.png",
+        img: "/assets/images/bamboo/model/model-16.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-16.png"
+                src:"/assets/images/bamboo/model/model-16.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-17.png",
+        img: "/assets/images/bamboo/model/model-17.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-17.png"
+                src:"/assets/images/bamboo/model/model-17.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-18.png",
+        img: "/assets/images/bamboo/model/model-18.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-18.png"
+                src:"/assets/images/bamboo/model/model-18.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-18.png",
+        img: "/assets/images/bamboo/model/model-18.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-18.png"
+                src:"/assets/images/bamboo/model/model-18.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-19.png",
+        img: "/assets/images/bamboo/model/model-19.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-19.png"
+                src:"/assets/images/bamboo/model/model-19.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-20.png",
+        img: "/assets/images/bamboo/model/model-20.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-20.png"
+                src:"/assets/images/bamboo/model/model-20.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-21.png",
+        img: "/assets/images/bamboo/model/model-21.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-21.png"
+                src:"/assets/images/bamboo/model/model-21.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-22.png",
+        img: "/assets/images/bamboo/model/model-22.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-22.png"
+                src:"/assets/images/bamboo/model/model-22.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/model/model-23.png",
+        img: "/assets/images/bamboo/model/model-23.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/model/model-23.png"
+                src:"/assets/images/bamboo/model/model-23.webp"
             },
         ]
     },
 
 ]
+
+
 
 export const bambooColorData = [
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-1.png",
+        img: "/assets/images/bamboo/color/color-1.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-1.png"
+                src:"/assets/images/bamboo/color/color-1.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-2.png",
+        img: "/assets/images/bamboo/color/color-2.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-2.png"
+                src:"/assets/images/bamboo/color/color-2.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-3.png",
+        img: "/assets/images/bamboo/color/color-3.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-3.png"
+                src:"/assets/images/bamboo/color/color-3.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-4.png",
+        img: "/assets/images/bamboo/color/color-4.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-4.png"
+                src:"/assets/images/bamboo/color/color-4.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-5.png",
+        img: "/assets/images/bamboo/color/color-5.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-5.png"
+                src:"/assets/images/bamboo/color/color-5.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-6.png",
+        img: "/assets/images/bamboo/color/color-6.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-6.png"
+                src:"/assets/images/bamboo/color/color-6.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-7.png",
+        img: "/assets/images/bamboo/color/color-7.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-7.png"
+                src:"/assets/images/bamboo/color/color-7.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-8.png",
+        img: "/assets/images/bamboo/color/color-8.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-8.png"
+                src:"/assets/images/bamboo/color/color-8.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-9.png",
+        img: "/assets/images/bamboo/color/color-9.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-9.png"
+                src:"/assets/images/bamboo/color/color-9.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-10.png",
+        img: "/assets/images/bamboo/color/color-10.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-10.png"
+                src:"/assets/images/bamboo/color/color-10.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-11.png",
+        img: "/assets/images/bamboo/color/color-11.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-11.png"
+                src:"/assets/images/bamboo/color/color-11.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-12.png",
+        img: "/assets/images/bamboo/color/color-12.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-12.png"
+                src:"/assets/images/bamboo/color/color-12.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-13.png",
+        img: "/assets/images/bamboo/color/color-13.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-13.png"
+                src:"/assets/images/bamboo/color/color-13.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-14.png",
+        img: "/assets/images/bamboo/color/color-14.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-14.png"
+                src:"/assets/images/bamboo/color/color-14.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-15.png",
+        img: "/assets/images/bamboo/color/color-15.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-15.png"
+                src:"/assets/images/bamboo/color/color-15.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-16.png",
+        img: "/assets/images/bamboo/color/color-16.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-16.png"
+                src:"/assets/images/bamboo/color/color-16.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-17.png",
+        img: "/assets/images/bamboo/color/color-17.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-17.png"
+                src:"/assets/images/bamboo/color/color-17.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-18.png",
+        img: "/assets/images/bamboo/color/color-18.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-18.png"
+                src:"/assets/images/bamboo/color/color-18.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-19.png",
+        img: "/assets/images/bamboo/color/color-19.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-19.png"
+                src:"/assets/images/bamboo/color/color-19.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-20.png",
+        img: "/assets/images/bamboo/color/color-20.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-20.png"
+                src:"/assets/images/bamboo/color/color-20.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-21.png",
+        img: "/assets/images/bamboo/color/color-21.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-21.png"
+                src:"/assets/images/bamboo/color/color-21.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-22.png",
+        img: "/assets/images/bamboo/color/color-22.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-22.png"
+                src:"/assets/images/bamboo/color/color-22.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-23.png",
+        img: "/assets/images/bamboo/color/color-23.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-23.png"
+                src:"/assets/images/bamboo/color/color-23.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-24.png",
+        img: "/assets/images/bamboo/color/color-24.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-24.png"
+                src:"/assets/images/bamboo/color/color-24.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-25.png",
+        img: "/assets/images/bamboo/color/color-25.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-25.png"
+                src:"/assets/images/bamboo/color/color-25.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-26.png",
+        img: "/assets/images/bamboo/color/color-26.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-26.png"
+                src:"/assets/images/bamboo/color/color-26.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-27.png",
+        img: "/assets/images/bamboo/color/color-27.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-27.png"
+                src:"/assets/images/bamboo/color/color-27.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-28.png",
+        img: "/assets/images/bamboo/color/color-28.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-28.png"
+                src:"/assets/images/bamboo/color/color-28.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-29.png",
+        img: "/assets/images/bamboo/color/color-29.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-29.png"
+                src:"/assets/images/bamboo/color/color-29.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-30.png",
+        img: "/assets/images/bamboo/color/color-30.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-30.png"
+                src:"/assets/images/bamboo/color/color-30.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-31.png",
+        img: "/assets/images/bamboo/color/color-31.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-31.png"
+                src:"/assets/images/bamboo/color/color-31.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-32.png",
+        img: "/assets/images/bamboo/color/color-32.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-32.png"
+                src:"/assets/images/bamboo/color/color-32.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-33.png",
+        img: "/assets/images/bamboo/color/color-33.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-33.png"
+                src:"/assets/images/bamboo/color/color-33.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-34.png",
+        img: "/assets/images/bamboo/color/color-34.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-34.png"
+                src:"/assets/images/bamboo/color/color-34.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-35.png",
+        img: "/assets/images/bamboo/color/color-35.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-35.png"
+                src:"/assets/images/bamboo/color/color-35.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-36.png",
+        img: "/assets/images/bamboo/color/color-36.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-36.png"
+                src:"/assets/images/bamboo/color/color-36.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-37.png",
+        img: "/assets/images/bamboo/color/color-37.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-37.png"
+                src:"/assets/images/bamboo/color/color-37.webp"
             },
         ]
     },
     {
         id: 1,
-        img: "/assets/images/bamboo/color/color-38.png",
+        img: "/assets/images/bamboo/color/color-38.webp",
         additional: [
             {
                 id: 1,
-                src:"/assets/images/bamboo/color/color-38.png"
+                src:"/assets/images/bamboo/color/color-38.webp"
             },
         ]
     },
 ]
 
 
+
 export const bambooExampleData = [
-   
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-1.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-1.webp"
+            }
+        ]
+    },
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-2.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-2.webp"
+            }
+        ]
+    },
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-3.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-3.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-4.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-4.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-4.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-4.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-5.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-5.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-6.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-6.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-7.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-7.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-8.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-8.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-9.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-9.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-10.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-10.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-11.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-11.webp"
+            }
+        ]
+    },
+
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-12.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-12.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-13.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-13.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-14.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-14.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-15.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-15.webp"
+            }
+        ]
+    },
+
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-16.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-16.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-17.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-17.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-18.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-18.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-19.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-19.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-20.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-20.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-21.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-21.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-22.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-22.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-23.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-23.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-24.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-24.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-25.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-25.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-26.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-26.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-27.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-27.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-28.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-28.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-29.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-29.webp"
+            }
+        ]
+    },
+
+    {
+        id: 1,
+        img: "/assets/images/bamboo/example/example-30.webp",
+        additional: [
+            {
+                id: 1,
+                src:"/assets/images/bamboo/example/example-30.webp"
+            }
+        ]
+    },
+    
 ]

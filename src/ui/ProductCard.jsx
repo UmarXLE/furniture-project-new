@@ -70,11 +70,18 @@ const LightBoxStyled = styled("div")`
         border-radius: 0 0 10px 10px;
         transition: transform 0.3s ease;
         /* height: 300px !important; */
+        height:200px !important;
         width:100%;
-        object-fit: contain;
+        object-fit: cover !important;
     }
 
     .wrapper-images img:hover {
         transform: scale(1.1);
+    }
+
+    @media screen and (max-width:767px) {
+        .wrapper-images img {
+            height:350px !important;
+        }
     }
 `

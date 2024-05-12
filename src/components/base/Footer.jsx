@@ -20,7 +20,7 @@ const Footer = () => {
                         height={15}
                         alt="phone icon"
                     />
-                    <p>+87784844190 - Алмата</p>
+                    <p>+7 87784844190 - Алмата</p>
                 </Link>
                 <Link href="tel:+787001114024">
                      <Image
@@ -29,7 +29,7 @@ const Footer = () => {
                         height={15}
                         alt="phone icon"
                     />
-                    <p>+87001114024 - Астана</p>
+                    <p>+7 87001114024 - Астана</p>
                 </Link>
             </div>
             <div className='footer-item'>
@@ -40,7 +40,7 @@ const Footer = () => {
                         height={15}
                         alt="phone icon"
                     />
-                    <p>+996555585961 - Бишкек</p>
+                    <p>+996 555 585 961 - Бишкек</p>
                 </Link>
                 <Link href="mailto:weasellux@gmail.com">
                 <Image
