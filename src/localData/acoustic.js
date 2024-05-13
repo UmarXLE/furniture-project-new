@@ -432,41 +432,11 @@ export const exampleAcousticData = [
     },
     {
         id: 1,
-        img: "/assets/images/acoustic/example/example-4.webp",
-        additional: [
-            {
-                id: 1,
-                src:"/assets/images/acoustic/example/example-4.webp"
-            }
-        ]
-    },
-    {
-        id: 1,
-        img: "/assets/images/acoustic/example/example-4.webp",
-        additional: [
-            {
-                id: 1,
-                src:"/assets/images/acoustic/example/example-4.webp"
-            }
-        ]
-    },
-    {
-        id: 1,
         img: "/assets/images/acoustic/example/example-5.webp",
         additional: [
             {
                 id: 1,
                 src:"/assets/images/acoustic/example/example-5.webp"
-            }
-        ]
-    },
-    {
-        id: 1,
-        img: "/assets/images/acoustic/example/example-6.webp",
-        additional: [
-            {
-                id: 1,
-                src:"/assets/images/acoustic/example/example-6.webp"
             }
         ]
     },
@@ -679,7 +649,7 @@ export const exampleAcousticData = [
                 src:"/assets/images/acoustic/example/example-27.webp"
             }
         ]
-    }, 
+    },
     {
         id: 1,
         img: "/assets/images/acoustic/example/example-28.webp",
@@ -689,7 +659,7 @@ export const exampleAcousticData = [
                 src:"/assets/images/acoustic/example/example-28.webp"
             }
         ]
-    },
+    }, 
     {
         id: 1,
         img: "/assets/images/acoustic/example/example-29.webp",
@@ -709,5 +679,15 @@ export const exampleAcousticData = [
                 src:"/assets/images/acoustic/example/example-30.webp"
             }
         ]
-    }
+    },
+    // {
+    //     id: 1,
+    //     img: "/assets/images/acoustic/example/example-30.webp",
+    //     additional: [
+    //         {
+    //             id: 1,
+    //             src:"/assets/images/acoustic/example/example-30.webp"
+    //         }
+    //     ]
+    // }
 ]

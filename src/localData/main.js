@@ -9,7 +9,7 @@ export const navigationHomeData = [
     {
         id: 2,
         title: "Акустические панели ",
-        img: "/assets/images/acoustic/example/example-9.webp",
+        img: "/assets/images/acoustic/example/example-17.webp",
         link:"acoustic"
     },
 ]
