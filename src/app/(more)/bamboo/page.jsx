@@ -7,11 +7,16 @@ import Models from '@/components/models/Models';
 import Colors from '@/components/colors/Colors';
 import Example from '@/components/example/Example';
 import Description from '@/components/aditional/Description';
+import ProductsContainer from '@/components/product/ProductsContainer';
 
 const BambooPage = () => {
     return (
         <Container>
             <Title title="Бамбуковые панели" />
+            <ProductsContainer title="одели" capital="М" />
+            <ProductsContainer title="эт" capital="П"/>
+            <ProductsContainer title="x" capital="M" />
+            <ProductsContainer title="F" capital="G"/>
             <Description text="Изделия абсолютно не токсичны, при производстве используется сырье бамбук и эко-клей PUR, не впитывают влагу. Возможно использовать при температуре от - 40 до + 50. Класс горения В1."/>
             <Models data={bambooModelsData}  />
             <Colors data={bambooColorData} />

@@ -7,11 +7,16 @@ import styled from '@emotion/styled';
 import React from 'react';
 import { colorsAcousticData , exampleAcousticData , modelsAcousticData} from "@/localData/acoustic"
 import Description from '@/components/aditional/Description';
+import ProductsContainer from '@/components/product/ProductsContainer';
 
 const BambooPage = () => {
     return (
         <Container>
             <Title title="Акустические панели" />
+            <ProductsContainer title="одели" capital="М" />
+            <ProductsContainer title="эт" capital="П"/>
+            <ProductsContainer title="Y MX" capital="B" />
+            <ProductsContainer title="G" capital="F"/>
             <Description text="Изделия абсолютно не токсичны, при производстве используется сырье бамбук и эко-клей PUR, не впитывают влагу. Возможно использовать при температуре от - 40 до + 50. Класс горения В1."/>
             <Models data={modelsAcousticData}  />
             <Colors data={colorsAcousticData} />

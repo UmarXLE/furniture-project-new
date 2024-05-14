@@ -13,48 +13,81 @@ const Footer = () => {
                 </span>
             </div>
             <div className='footer-item'>
-                <Link href="tel:+7 778 484 41 90">
-                    <Image
-                        src={"/assets/icons/phone.png"}
-                        width={15}
-                        height={15}
-                        alt="phone icon"
-                    />
-                    <p>+7 778 484 41 90 - Алмата</p>
-                </Link>
-                <Link href="tel:+7 700 111 40 24">
-                     <Image
-                        src={"/assets/icons/phone.png"}
-                        width={15}
-                        height={15}
-                        alt="phone icon"
-                    />
-                    <p>+7 700 111 40 24 - Астана</p>
-                </Link>
+                <div className='footer-item-card'>
+                    <Link href="https://wa.me/+7 778 484 41 90">
+                        <Image
+                            src={"/assets/icons/whatsapp.png"}
+                            width={15}
+                            height={15}
+                            alt="whatsapp icon"
+                        />
+                    </Link>
+                    <Link href="tel:+7 778 484 41 90">
+                        <Image
+                            src={"/assets/icons/phone.png"}
+                            width={15}
+                            height={15}
+                            alt="phone icon"
+                        />
+                        <p>+7 778 484 41 90 - Алмата</p>
+                    </Link>
+                </div>
+                <div className='footer-item-card'>
+                    <Link href="https://wa.me/+7 700 111 40 24">
+                        <Image
+                            src={"/assets/icons/whatsapp.png"}
+                            width={15}
+                            height={15}
+                            alt="whatsapp icon"
+                        />
+                    </Link>
+                    <Link href="tel:+7 700 111 40 24">
+                        <Image
+                            src={"/assets/icons/phone.png"}
+                            width={15}
+                            height={15}
+                            alt="phone icon"
+                        />
+                        <p>+7 700 111 40 24 - Астана</p>
+                    </Link>
+                </div>
             </div>
             <div className='footer-item'>
-                <Link href="tel:+996555585961">
-                    <Image
-                        src={"/assets/icons/phone.png"}
-                        width={15}
-                        height={15}
-                        alt="phone icon"
-                    />
-                    <p>+996 555 585 961 - Бишкек</p>
-                </Link>
-                <Link href="mailto:weasellux@gmail.com">
-                <Image
-                        src={"/assets/icons/email.png"}
-                        width={17}
-                        height={17}
-                        alt="phone icon"
-                    />
-                    <p>weasellux@gmail.com</p>
-                </Link>
+                <div className='footer-item-card'>
+                    <Link href="https://wa.me/+996555585961">
+                        <Image
+                            src={"/assets/icons/whatsapp.png"}
+                            width={15}
+                            height={15}
+                            alt="whatsapp icon"
+                        />
+                    </Link>
+                    <Link href="tel:+996555585961">
+                        <Image
+                            src={"/assets/icons/phone.png"}
+                            width={15}
+                            height={15}
+                            alt="phone icon"
+                        />
+                        <p>+996 555 585 961 - Бишкек</p>
+                    </Link>
+                </div>
+                <div className='footer-item-card'>
+
+                    <Link href="mailto:weasellux@gmail.com">
+                        <Image
+                            src={"/assets/icons/email.png"}
+                            width={17}
+                            height={17}
+                            alt="phone icon"
+                        />
+                        <p>weasellux@gmail.com</p>
+                    </Link>
+                </div>
             </div>
             <div className='footer-item'>
                 <Link target='_blank' href="https://www.instagram.com/kapitik_art.kz?igsh=cGJsMmo5aXZvcGtk">
-                <Image
+                    <Image
                         src={"/assets/icons/instagram.png"}
                         width={15}
                         height={15}
@@ -75,7 +108,7 @@ const Container = styled("footer")`
     border-radius: 10px 10px 0 0;
     color:var(--white);
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
     grid-auto-rows: auto;
     gap:20px;
     width: 100%;
@@ -84,6 +117,12 @@ const Container = styled("footer")`
         display:flex;
         flex-direction:column;
         gap:15px;
+    }
+
+    .footer-item-card {
+        display:flex;
+        align-items: center;
+        gap:10px;
     }
 
     .footer-item a , span {
