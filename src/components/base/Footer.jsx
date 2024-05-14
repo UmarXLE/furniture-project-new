@@ -13,23 +13,23 @@ const Footer = () => {
                 </span>
             </div>
             <div className='footer-item'>
-                <Link href="tel:+77784844190">
+                <Link href="tel:+7 778 484 41 90">
                     <Image
                         src={"/assets/icons/phone.png"}
                         width={15}
                         height={15}
                         alt="phone icon"
                     />
-                    <p>+777 848 441 90 - Алмата</p>
+                    <p>+7 778 484 41 90 - Алмата</p>
                 </Link>
-                <Link href="tel:+77001114024">
+                <Link href="tel:+7 700 111 40 24">
                      <Image
                         src={"/assets/icons/phone.png"}
                         width={15}
                         height={15}
                         alt="phone icon"
                     />
-                    <p>+770 011 140 24 - Астана</p>
+                    <p>+7 700 111 40 24 - Астана</p>
                 </Link>
             </div>
             <div className='footer-item'>
