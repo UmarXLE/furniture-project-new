@@ -81,7 +81,8 @@ const LightBoxStyled = styled("div")`
 
     @media screen and (max-width:767px) {
         .wrapper-images img {
-            height:350px !important;
+            height: 250px !important;
+            object-fit: contain !important;
         }
     }
 `
