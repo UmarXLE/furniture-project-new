@@ -6,8 +6,11 @@ import React from 'react';
 import { scrollTo } from '@/utils/scroll';
 import Link from 'next/link';
 import MenuDrawer from '../navigation/MenuDrawer';
+import {useSearchParams } from 'next/navigation';
 
 const HeaderAdditional = () => {
+    const params = useSearchParams()
+    console.log(params);
     return (
         <Container data-aos="fade-down" data-aos-duration="1000" data-aos-once="false">
             <div className='logo'>
@@ -21,6 +24,7 @@ const HeaderAdditional = () => {
                 </Link>
             </div>
             <nav className='navigation'>
+                <Link href={"/"}>На главную</Link>
                 <span onClick={() => scrollTo('model')}>Модели</span>
                 <span onClick={() => scrollTo('color')}>Цвета</span>
                 <span onClick={() => scrollTo('example')}>Примеры</span>

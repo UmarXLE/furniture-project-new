@@ -7,7 +7,7 @@ import "yet-another-react-lightbox/styles.css";
 import Download from "yet-another-react-lightbox/plugins/download";
 import Button from "./Button";
 
-export default function LightBox({ data , setOpen}) {
+export default function LightBox({ data , setOpen , height , width}) {
     
     const [open, setOpenLocal] = React.useState(false);
     
@@ -24,10 +24,10 @@ export default function LightBox({ data , setOpen}) {
             <div>
                 <Image
                     onClick={handleOpen}
-                    src={data?.main}
-                    width={300}
-                    height={300}
-                    layout="responsive"
+                    src={data?.img}
+                    width={width }
+                    height={height}
+                    // layout="responsive"
                     alt="sizes panel image"
                     className="mainImage"
                 />
@@ -44,6 +44,8 @@ export default function LightBox({ data , setOpen}) {
 
 
 const LightBoxStyled = styled("div")`
+    width: ${props => props.width ? props.width : ""};
+    height: ${props => props.height ? props.height : ""};
     .mainImage {
         cursor: pointer;
     }

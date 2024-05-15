@@ -21,6 +21,7 @@ const MenuContent = ({ close }) => {
                     </Link>
                 </div>
                 <nav className='navigation'>
+                    <Link href={"/"}>На главную</Link>
                     <span onClick={() => {
                         scrollTo('model')
                         close()

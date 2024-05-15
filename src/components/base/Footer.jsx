@@ -1,8 +1,10 @@
 "use client"
+import ProductCard from '@/ui/ProductCard';
 import styled from '@emotion/styled';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import LightBox from '@/ui/LightBox';
 
 const Footer = () => {
     return (
@@ -14,7 +16,7 @@ const Footer = () => {
             </div>
             <div className='footer-item'>
                 <div className='footer-item-card'>
-                    <Link href="https://wa.me/+7 778 484 41 90">
+                    <Link target='_blank' href="https://wa.me/+7 778 484 41 90">
                         <Image
                             src={"/assets/icons/whatsapp.png"}
                             width={15}
@@ -33,7 +35,7 @@ const Footer = () => {
                     </Link>
                 </div>
                 <div className='footer-item-card'>
-                    <Link href="https://wa.me/+7 700 111 40 24">
+                    <Link target='_blank' href="https://wa.me/+7 700 111 40 24">
                         <Image
                             src={"/assets/icons/whatsapp.png"}
                             width={15}
@@ -51,10 +53,8 @@ const Footer = () => {
                         <p>+7 700 111 40 24 - Астана</p>
                     </Link>
                 </div>
-            </div>
-            <div className='footer-item'>
                 <div className='footer-item-card'>
-                    <Link href="https://wa.me/+996555585961">
+                    <Link  target='_blank' href="https://wa.me/+996555585961">
                         <Image
                             src={"/assets/icons/whatsapp.png"}
                             width={15}
@@ -72,8 +72,9 @@ const Footer = () => {
                         <p>+996 555 585 961 - Бишкек</p>
                     </Link>
                 </div>
+            </div>
+            <div className='footer-item'>
                 <div className='footer-item-card'>
-
                     <Link href="mailto:weasellux@gmail.com">
                         <Image
                             src={"/assets/icons/email.png"}
@@ -84,8 +85,6 @@ const Footer = () => {
                         <p>weasellux@gmail.com</p>
                     </Link>
                 </div>
-            </div>
-            <div className='footer-item'>
                 <Link target='_blank' href="https://www.instagram.com/kapitik_art.kz?igsh=cGJsMmo5aXZvcGtk">
                     <Image
                         src={"/assets/icons/instagram.png"}
@@ -96,6 +95,21 @@ const Footer = () => {
                     <p>kapitik_art.kz</p>
                 </Link>
             </div>
+            <div className='footer-item'>
+                <LightBox
+                    width={100}
+                    height={100}
+                    data={{
+                    id: 2,
+                    img: "/assets/icons/inst-q.png",
+                    additional: [
+                        {
+                            id: 1,
+                            src: "/assets/icons/inst-q.png"
+                        }
+                    ]
+                }}/>
+            </div>
         </Container>
     );
 };
@@ -103,13 +117,14 @@ const Footer = () => {
 export default Footer;
 
 const Container = styled("footer")`
-    padding: 40px 30px;
+    padding: 20px 30px;
     background: var(--bg);
     border-radius: 10px 10px 0 0;
     color:var(--white);
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    grid-template-columns: 20% 30% 30% 20%;
     grid-auto-rows: auto;
+    justify-content: space-between;
     gap:20px;
     width: 100%;
 
@@ -133,5 +148,13 @@ const Container = styled("footer")`
         display:flex;
         align-items: center;
         gap:5px;
+    }
+
+
+    @media screen and (max-width:992px) {
+        grid-template-columns: 1fr 1fr;
+    }
+    @media screen and (max-width:767px) {
+        grid-template-columns: 1fr;
     }
 `

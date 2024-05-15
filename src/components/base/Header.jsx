@@ -18,7 +18,7 @@ const Header = () => {
             </div>
             <div className='download-button'>
                 <Button>
-                    <a href="/assets/files/catalog.pdf" download>Скачать каталог</a>
+                    <a href="" download>Скачать каталог</a>
                 </Button>
             </div>
         </Container>
